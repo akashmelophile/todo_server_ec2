@@ -13,7 +13,7 @@ app.use(express.json());
 //http://localhost:5000/csbs
 app.use('/csbs',route);
  app.listen(PORT,()=>{
-    console.log('app is listening in ${PORT}');
+    console.log(`app is listening on port ${PORT}`);
  })
 
 connectDb();
